@@ -8,9 +8,9 @@ var words = input.split(" ")
 
 var output = {}
 
-for (var j = 0; j < words.length; j++) {
+for (var i = 0; i < words.length; i++) {
 
-    var word = words[j].toLowerCase()
+    var word = words[i].toLowerCase()
 
     if (output[word] != undefined) {
 
@@ -69,7 +69,7 @@ console.log("\n\n.......................................................\n\n")
 //Program 3
 var input = [[2,3,0], [5,9,8], [7,6,3]]
 var first = 0;
-var last = 2;
+var last = input.length - 1;;
 var firstRes = 0;
 var lastRes = 0;
 
