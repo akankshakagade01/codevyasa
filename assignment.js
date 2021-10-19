@@ -10,7 +10,7 @@ var output = {}
 
 for (var j = 0; j < words.length; j++) {
 
-    var word = words[j].toLocaleLowerCase()
+    var word = words[j].toLowerCase()
 
     if (output[word] != undefined) {
 
